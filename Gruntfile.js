@@ -336,4 +336,6 @@ module.exports = function(grunt) {
   grunt.registerTask('server', ['browserSync', 'notify:server']);
   grunt.registerTask('lint', ['removelogging:source']);
   grunt.registerTask('monitor', ["concurrent:monitor"]);
+  grunt.registerTask('heroku',
+    ['compass:dist', 'postcss']);
 };
