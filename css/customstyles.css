@@ -57,6 +57,7 @@ body {
     padding: 0 0 0 0%;
     margin: 175px auto;
     width: 80%;
+    min-height: 100vh;
   }
   #my_header .my_h1 {
     font-size: .9em;
@@ -82,8 +83,11 @@ body {
 }
 
 @media (min-width: 656px) and (max-width: 882px) {
+  #my_header {
+    margin: 175px auto;
+  }
   #my_header .my_h1 {
-    font-size: 1.3em;
+    font-size: 1.35em;
     margin: 20px 0;
   }
   #my_header .my_h1 .my_indent {
@@ -94,9 +98,9 @@ body {
   }
 }
 
-@media (min-width: 883px) and (max-width: 1553px) {
+@media (min-width: 883px) and (max-width: 1300px) {
   #my_header .my_h1 {
-    font-size: 1.7em;
+    font-size: 1.65em;
     margin: 25px 0;
     padding: 0 0 0 10%;
   }
