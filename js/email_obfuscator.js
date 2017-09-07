@@ -19,7 +19,9 @@
   }
 
 $(document).ready(function() {
-  var mailtoDiv = document.getElementById('mailto_container');
-  mailtoDiv.innerHTML = "<a class='contact' href='mailto:" + link + "''><i class='not_buttons material-icons'>email</i></a>";
+  var mailtoDivs = document.querySelectorAll('.mailto_container');
+  for (var i = 0; i < mailtoDivs.length; i++) {
+    mailtoDivs[i].innerHTML = "<a class='contact' href='mailto:" + link + "''><i class='not_buttons material-icons'>email</i></a>";
+  }
 });
 }

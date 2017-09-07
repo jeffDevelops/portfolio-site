@@ -16,6 +16,25 @@ body {
   transition: all .7s ease-in;
 }
 
+.nav {
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  font-size: 1.8em;
+}
+
+.nav div {
+  padding: 0;
+}
+
+.nav .mailto_container {
+  padding: 7px 0 0 .5%;
+}
+
+.nav .mailto_container i {
+  font-size: 1.2em;
+}
+
 .my_white {
   font-family: 'Fira Mono', monospace;
   color: #fff;
@@ -42,6 +61,7 @@ body {
 
 @media (max-width: 400px) {
   #my_header {
+    min-height: 100vh;
     padding: 0 0 0 5%;
     margin: 175px auto;
     width: 100%;
@@ -478,24 +498,9 @@ button#last:active, button#last:focus {
   text-align: center;
 }
 
-#contact textarea#message {
-  font-size: 1.5em;
-  color: #1de9c3;
-}
-
 #contact a.contact {
+  text-align: center;
   color: #1de9c3;
-}
-
-#contact a.contact button {
-  position: relative;
-  background: #000;
-  border: 3px solid #1de9c3;
-  border-radius: 4px;
-  padding: 15px 15px 15px 45px;
-  text-transform: uppercase;
-  font-weight: 900;
-  letter-spacing: .1em;
 }
 
 #contact a.contact:hover {
@@ -511,8 +516,8 @@ button#last:active, button#last:focus {
 }
 
 #contact i.not_buttons {
-  font-size: 3em;
   display: block;
+  font-size: 3em;
   margin: 0 auto;
   width: 25px;
   -webkit-transform: scale(1);
