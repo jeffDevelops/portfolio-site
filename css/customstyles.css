@@ -66,6 +66,7 @@ body {
     padding: 0 0 0 5%;
     margin: 175px auto;
     width: 100%;
+    min-height: 100vh;
   }
   #my_header .my_h1 {
     font-size: .8em;
