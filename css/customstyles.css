@@ -18,6 +18,7 @@ body {
 
 .nav {
   position: fixed;
+  z-index: 10;
   height: 100px;
   width: 100%;
   font-size: 1.8em;
@@ -390,7 +391,7 @@ hr {
   margin: -50px auto 25px auto;
 }
 
-button#next, button#last {
+button.next, button.last {
   display: block;
   width: 100%;
   margin: 0 auto;
@@ -401,21 +402,21 @@ button#next, button#last {
   min-width: 50px;
 }
 
-button#next i, button#last i {
+button.next i, button.last i {
   display: block;
   margin: 0 0 0 -11px;
   font-size: 3em;
   color: #1de9c3;
 }
 
-button#next:hover, button#last:hover {
+button.next:hover, button.last:hover {
   background: transparent;
   border: 3px solid #1de9c3;
   transition: all 1s;
 }
 
-button#next:active, button#next:focus,
-button#last:active, button#last:focus {
+button.next:active, button.next:focus,
+button.last:active, button.last:focus {
   outline: none;
 }
 
