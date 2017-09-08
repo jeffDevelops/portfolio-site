@@ -22,6 +22,21 @@
   </head>
   <body>
 
+      <div class="nav row valign-wrapper"><!-- Would have used a nav here, but materialize's nav's default styles were not what I wanted-->
+        <div class="col s6 m9 valign"></div>
+        <div class="mailto_container contact col s2 m1">
+            <!-- Script generated mailto link -->
+        </div>
+        <div class="col s2 m1 valign">
+          <a class='contact' href="https://github.com/jeffDevelops"><i class="not_buttons devicon-github-plain"></i></a>
+        </div>
+        <div class="col s2 m1 valign">
+          <a class='contact' href="https://www.linkedin.com/in/jeff-develops/"><i class="not_buttons fa fa-linkedin-square" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+
+
     <!-- Flip Out Intro -->
     <div class="flip-out-intro header full-height should_flip">
       <div class="fixed-wrapper">
@@ -178,18 +193,18 @@
             <div class="laptop-preview-sizer">
               <div class="laptop-preview"></div><!-- the actual laptop frame -->
 
-                <div id="photo_container" class="my_image_container image-container active" style="background-image:url(./images/binaural_about.png)"></div>
+                <div id="binaural_photos" class="my_image_container image-container active" style="background-image: url(./images/binaural_landing.png)"></div>
             </div>
           </div>
         </div>
       
-        <div class="row buttons">
+        <div id="binaural" class="row buttons">
           <div class="col s4 m5"></div>
           <div class="col s2 m1">
-            <button id="last" class=""><i class="material-icons">navigate_before</i></button>
+            <button class="last"><i class="material-icons">navigate_before</i></button>
           </div>
           <div class="col s2 m1">
-            <button id="next" class=""><i class="material-icons">navigate_next</i></button>
+            <button class="next"><i class="material-icons">navigate_next</i></button>
           </div>
           <div class="col s4 m5"></div>
         </div>
@@ -219,19 +234,19 @@
               <div class="phone-preview-sizer">
                   <div class="phone-preview"></div>
                 <!-- the actual laptop frame -->
-                  <div id="photo_container" class="my_image_container image-container active" style="background-image:url(./images/same_search.png)"></div>
+                  <div id="same_photos" class="my_image_container image-container active" style="background-image:url(./images/same_login.png)"></div>
               </div>
             </div>
         </div>
 
 
-        <div class="row buttons">
+        <div id="same" class="row buttons">
           <div class="col s4 m5"></div>
           <div class="col s2 m1">
-            <button id="last" class=""><i class="material-icons">navigate_before</i></button>
+            <button class="last"><i class="material-icons">navigate_before</i></button>
           </div>
           <div class="col s2 m1">
-            <button id="next" class=""><i class="material-icons">navigate_next</i></button>
+            <button class="next"><i class="material-icons">navigate_next</i></button>
           </div>
           <div class="col s4 m5"></div>
         </div>
@@ -261,18 +276,18 @@
             <div class="tablet-preview-sizer">
               <div class="tablet-preview"></div>
                 <!-- the actual laptop frame -->
-              <div id="photo_container" class="my_image_container image-container active" style="background-image:url(./images/color_dismiss.png)"></div>
+              <div id="color_photos" class="my_image_container image-container active" style="background-image:url(./images/color_home.png)"></div>
             </div>
           </div>
         </div>
 
-        <div class="row buttons">
+        <div id="color" class="row buttons">
           <div class="col s4 m5"></div>
           <div class="col s2 m1">
-            <button id="last" class=""><i class="material-icons">navigate_before</i></button>
+            <button class="last"><i class="material-icons">navigate_before</i></button>
           </div>
           <div class="col s2 m1">
-            <button id="next" class=""><i class="material-icons">navigate_next</i></button>
+            <button class="next"><i class="material-icons">navigate_next</i></button>
           </div>
           <div class="col s4 m5"></div>
         </div>
@@ -302,18 +317,18 @@
             <div class="laptop-preview-sizer">
               <div class="laptop-preview"></div><!-- the actual laptop frame -->
 
-                <div id="photo_container" class="my_image_container image-container active" style="background-image:url(./images/campground-snob.png)"></div>
+                <div id="campground_snob_photos" class="my_image_container image-container active" style="background-image:url(./images/campground-snob.png)"></div>
             </div>
           </div>
         </div>
 
-        <div class="row buttons">
+        <div id="campground_snob" class="row buttons">
           <div class="col s4 m5"></div>
           <div class="col s2 m1">
-            <button id="last" class=""><i class="material-icons">navigate_before</i></button>
+            <button class="last"><i class="material-icons">navigate_before</i></button>
           </div>
           <div class="col s2 m1">
-            <button id="next" class=""><i class="material-icons">navigate_next</i></button>
+            <button class="next"><i class="material-icons">navigate_next</i></button>
           </div>
           <div class="col s4 m5"></div>
         </div>
@@ -345,7 +360,7 @@
         <div class="col s12"><h2 class="section-title">Let's talk.</h2></div>
       </div>
       <div class="row">
-        <div id="mailto_container" class="col s4">
+        <div class="mailto_container col s4">
             <!-- Script generated mailto link -->
         </div>
         <div class="col s4">

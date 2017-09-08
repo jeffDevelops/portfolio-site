@@ -16,10 +16,28 @@ body {
 	transition: all .7s ease-in;
 }
 
+.nav {
+	position: fixed;
+	z-index: 10;
+	height: 100px;
+	width: 100%;
+	font-size: 1.8em;
+	div {
+		padding: 0;
+	}
+	.mailto_container {
+		padding: 7px 0 0 .5%;
+	  i {
+	  	font-size: 1.2em;
+	  }
+	}
+}
+
 .my_white {
 		font-family: 'Fira Mono', monospace;
 		color: #fff;
 	}
+
 // Greeting Component
 
 #my_header .my_h1 {
@@ -43,6 +61,7 @@ body {
 
 @media(max-width: 400px) {
 	#my_header {
+		min-height: 100vh;
 		padding: 0 0 0 5%;
 		margin: 175px auto;
 		width: 100%;
@@ -87,8 +106,11 @@ body {
 }
 
 @media(min-width: 656px) and (max-width: 882px) {
+	#my_header {
+		margin: 175px auto;
+	}
 	#my_header .my_h1 {
-		font-size: 1.3em;
+		font-size: 1.35em;
 		margin: 20px 0;
 
 		.my_indent {
@@ -101,9 +123,9 @@ body {
 	}
 }
 
-@media(min-width: 883px) and (max-width: 1553px) {
+@media(min-width: 883px) and (max-width: 1300px) {
 	#my_header .my_h1 {
-		font-size: 1.7em;
+		font-size: 1.65em;
 		margin: 25px 0;
 		padding: 0 0 0 10%;
 
@@ -385,7 +407,7 @@ hr {
 	margin: -50px auto 25px auto;
 }
 
-button#next, button#last {
+button.next, button.last {
 	display: block;
 	width: 100%;
 	margin: 0 auto;
@@ -402,14 +424,14 @@ button#next, button#last {
 	}
 }
 
-button#next:hover, button#last:hover {
+button.next:hover, button.last:hover {
 	background: transparent;
 	border: 3px solid #1de9c3;
 	transition: all 1s;
 }
 
-button#next:active, button#next:focus,
-button#last:active, button#last:focus {
+button.next:active, button.next:focus,
+button.last:active, button.last:focus {
 	outline: none;
 }
 
@@ -496,23 +518,9 @@ button#last:active, button#last:focus {
 		font-family: 'Fira Mono', monospace;
 		text-align: center;
 	}
-	textarea#message {
-		font-size: 1.5em;
-		color: #1de9c3;
-	}
 	a.contact {
+		text-align: center;
 		color: #1de9c3;
-
-		button {
-			position: relative;
-			background: #000;
-			border: 3px solid #1de9c3;
-			border-radius: 4px;
-			padding: 15px 15px 15px 45px;
-			text-transform: uppercase;
-			font-weight: 900;
-			letter-spacing: .1em;
-		}
 	}
 	a.contact:hover {
 		color: #000;
@@ -524,8 +532,8 @@ button#last:active, button#last:focus {
 		}
 	}
 	i.not_buttons {
-		font-size: 3em;
 		display: block;
+		font-size: 3em;
 		margin: 0 auto;
 		width: 25px;
 		-webkit-transform: scale(1);
@@ -547,15 +555,3 @@ button#last:active, button#last:focus {
 		font-size: 1.6em;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-                
