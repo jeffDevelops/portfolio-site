@@ -21,9 +21,9 @@ $(document).ready(function() {
       './images/color_nav.png'
     ],
     campground_snob: [
-      './images/campground_snob_landing.png',
-      './images/campground_snob_login.png',
-      './images/campground-snob.png',
+      './images/campground_snob_landing.jpg',
+      './images/campground_snob_login.jpg',
+      './images/campground-snob.jpg',
     ]
   };
 
