@@ -4,12 +4,19 @@ $(document).ready(function() {
 
 
   var sources = {
+    ci: [
+      './images/ci_repo_index.png',
+      './images/ci_tracker.png',
+      './images/ci_in_action.png',
+      './images/ci_reminder.png',
+      './images/ci_success.png'
+    ],
     binaural: [
       './images/binaural_landing.png',
       './images/binaural_modal.png',
       './images/binaural.png',
       './images/binaural_about.png'
-      ],
+    ],
     same: [
       './images/same_login.png',
       './images/same_search.png',
@@ -50,4 +57,3 @@ $(document).ready(function() {
     }
   });
 });
-

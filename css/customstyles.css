@@ -388,6 +388,10 @@ hr {
   background-position: top right;
 }
 
+#ci_photos.my_image_container.image-container {
+  background-position: top center;
+}
+
 .buttons {
   margin: -50px auto 25px auto;
 }

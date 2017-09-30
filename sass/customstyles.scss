@@ -45,7 +45,7 @@ body {
 	font-size: 2.4em;
 	font-weight: 500;
 	text-align: left;
-	
+
 	.my_indent {
 		padding: 0 0 0 10%;
 	}
@@ -157,14 +157,14 @@ h3.tech {
 #fave_tech {
 	position: relative;
 	font-size: 5em;
-	height: 100vh; 
-	margin: -75px auto; 
-	
+	height: 100vh;
+	margin: -75px auto;
+
 	.container {
 		position: absolute;
 		top: 250px;
 		left: 0;
-		right: 0; 
+		right: 0;
 		-webkit-transform: rotateZ(45deg);
 		transform: rotateZ(45deg);
 	}
@@ -178,22 +178,22 @@ h3.tech {
 			width: 25%;
 			transform: rotateZ(-45deg);
 			margin: 0;
-		
+
 			i {
 				-webkit-transform: scale(2);
 	    	transform: scale(2);
 	    	-webkit-transform: rotateZ(-45deg);
 	    	transform: rotateZ(-45deg);
 	    	-webkit-transition: all .5s ease-in;
-	    	transition: all .5s ease-in;	
+	    	transition: all .5s ease-in;
 	    }
  			i.icon:hover {
 	    	font-size: calc(1em * 1.1);
 	    	color: #fff;
-	    	-webkit-transition: all .7s ease-out;	
+	    	-webkit-transition: all .7s ease-out;
 	    	transition: all .7s ease-out;
 	    }
-	    
+
 	    .smaller {
 	    	font-size: .7em;
 	    }
@@ -265,7 +265,7 @@ h3.tech {
 	#fave_tech {
 		-webkit-transform: scale(.85);
 		transform: scale(.85);
-		
+
 		height: 400px;
 		.container {
 			top: 250px;
@@ -328,7 +328,7 @@ h3.tech {
 img {
 	width: 19%;
 	min-width: 80px;
-	padding: 50px 6%; 
+	padding: 50px 6%;
 }
 
 .wrap_text {
@@ -372,8 +372,8 @@ hr {
 	width: 20%;
 }
 
-.laptop-preview-sizer, 
-.phone-preview-sizer, 
+.laptop-preview-sizer,
+.phone-preview-sizer,
 .tablet-preview-sizer {
 	margin: 75px auto;
 }
@@ -401,6 +401,10 @@ hr {
 .my_image_container.image-container {
 	background-size: cover;
 	background-position: top right;
+}
+
+#ci_photos.my_image_container.image-container {
+	background-position: top center;
 }
 
 .buttons {
@@ -435,7 +439,7 @@ button.last:active, button.last:focus {
 	outline: none;
 }
 
-.app_heading {	
+.app_heading {
 		padding: 0 3% 0 0;
 
 	.app_title {
