@@ -27,11 +27,11 @@ $(document).ready(function() {
       './images/color_dismiss.png',
       './images/color_nav.png'
     ],
-    campground_snob: [
-      './images/campground_snob_landing.jpg',
-      './images/campground_snob_login.jpg',
-      './images/campground-snob.jpg',
-    ]
+    // campground_snob: [
+    //   './images/campground_snob_landing.jpg',
+    //   './images/campground_snob_login.jpg',
+    //   './images/campground-snob.jpg',
+    // ]
   };
 
   var i = 0;

@@ -42,7 +42,7 @@ body {
 
 #my_header .my_h1 {
 	font-family: 'Fira Mono', monospace;
-	font-size: 2.4em;
+	font-size: 1.8em;
 	font-weight: 500;
 	text-align: left;
 
@@ -62,10 +62,11 @@ body {
 @media(max-width: 400px) {
 	#my_header {
 		min-height: 100vh;
-		padding: 0 0 0 5%;
-		margin: 175px auto;
+		padding: 0 0 0 6%;
+		margin: 175px auto 25px auto;
 		width: 100%;
-		min-height: 100vh;
+		min-height: 250px;
+		height: 80vh;
 		.my_h1 {
 			font-size: .8em;
 			margin: 20px 0;
@@ -75,12 +76,13 @@ body {
 
 @media(min-width: 401px) and (max-width: 600px) {
 	#my_header {
-		padding: 0 0 0 0%;
-		margin: 175px auto;
+		padding: 0 0 0 1%;
+		margin: 175px auto 25px auto;
 		width: 80%;
-		min-height: 100vh;
+		min-height: 300px;
+		height: 90vh;
 		.my_h1 {
-			font-size: .9em;
+			font-size: .8em;
 			margin: 20px 0;
 		}
 	}
@@ -90,9 +92,11 @@ body {
 	#my_header {
 		margin: 175px auto;
 		padding: 0 0 0 2%;
+		min-height: 300px;
+		height: 100vh;
 	}
 	#my_header .my_h1 {
-		font-size: 1.2em;
+		font-size: .8em;
 		margin: 20px 0;
 
 		.my_indent {
@@ -110,7 +114,7 @@ body {
 		margin: 175px auto;
 	}
 	#my_header .my_h1 {
-		font-size: 1.35em;
+		font-size: 1.1em;
 		margin: 20px 0;
 
 		.my_indent {
@@ -125,7 +129,7 @@ body {
 
 @media(min-width: 883px) and (max-width: 1300px) {
 	#my_header .my_h1 {
-		font-size: 1.65em;
+		font-size: 1.5em;
 		margin: 25px 0;
 		padding: 0 0 0 10%;
 
@@ -136,6 +140,13 @@ body {
 		.my_indent2 {
 			padding: 0 0 0 10%;
 		}
+	}
+}
+
+@media(min-width: 1301) {
+	#my_header .my_h1 {
+		font-size: 2.3em;
+		margin: 25px 0;
 	}
 }
 

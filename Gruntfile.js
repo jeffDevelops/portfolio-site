@@ -113,9 +113,10 @@ module.exports = function(grunt) {
               "materialize/js/date_picker/picker.date.js",
               "materialize/js/character_counter.js",
               "materialize/js/carousel.js",
+              "js/**"
              ],
         // the location of the resulting JS file
-        dest: 'js/materialize.js'
+        dest: 'dist/result.js'
       },
       temp: {
         // the files to concatenate
@@ -150,6 +151,7 @@ module.exports = function(grunt) {
               "materialize/js/date_picker/picker.date.js",
               "materialize/js/character_counter.js",
               "materialize/js/carousel.js",
+              "**/js/**"
              ],
         // the location of the resulting JS file
         dest: 'temp/js/materialize.js'
